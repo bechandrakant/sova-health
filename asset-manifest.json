@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/sova-health/static/css/main.17ba40fe.chunk.css",
+    "main.js": "/sova-health/static/js/main.9c0214e7.chunk.js",
+    "main.js.map": "/sova-health/static/js/main.9c0214e7.chunk.js.map",
+    "runtime-main.js": "/sova-health/static/js/runtime-main.7dd88633.js",
+    "runtime-main.js.map": "/sova-health/static/js/runtime-main.7dd88633.js.map",
+    "static/js/2.3a52eb97.chunk.js": "/sova-health/static/js/2.3a52eb97.chunk.js",
+    "static/js/2.3a52eb97.chunk.js.map": "/sova-health/static/js/2.3a52eb97.chunk.js.map",
+    "index.html": "/sova-health/index.html",
+    "static/css/main.17ba40fe.chunk.css.map": "/sova-health/static/css/main.17ba40fe.chunk.css.map",
+    "static/js/2.3a52eb97.chunk.js.LICENSE.txt": "/sova-health/static/js/2.3a52eb97.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dd88633.js",
+    "static/js/2.3a52eb97.chunk.js",
+    "static/css/main.17ba40fe.chunk.css",
+    "static/js/main.9c0214e7.chunk.js"
+  ]
+}
