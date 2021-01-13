@@ -1,0 +1,34 @@
+.goals {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: auto;
+  text-align: center;
+
+  @media (max-width: 768px) {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  &-card-container {
+    width: 30%;
+    margin-right: 3%;
+    margin-bottom: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    box-shadow: 5px 5px #888888;
+    padding: 10px;
+    border-radius: 10px;
+
+    @media (max-width: 768px) {
+      width: 90%;
+      margin: 20px auto;
+    }
+
+    p {
+      font-size: 0.8rem;
+    }
+  }
+}

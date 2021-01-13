@@ -1,0 +1,33 @@
+.redefine {
+  background-color:#E3E3E3;
+  padding-bottom: 40px;
+
+  .redefine-cards-container {
+    display: flex;
+    
+    @media (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .redefine-cards {
+      background-color: white;
+      border-radius: 10px;
+      display: flex;
+      flex: 1;
+      padding: 5px 10px;
+      margin-left: 10px;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width: 768px) {
+        margin-bottom: 10px;
+      }
+
+      p {
+        padding-left: 20px;
+        font-weight: bold;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

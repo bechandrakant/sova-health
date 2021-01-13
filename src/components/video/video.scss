@@ -1,0 +1,25 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 57%;
+  height: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media (min-width: 550px) {
+    padding-bottom: 320px;
+  }
+
+  iframe {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    max-width: 560px;
+    max-height: 315px;
+
+    @media (min-width: 550px) {
+      margin: auto;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+h1 {
+  font-size: 2rem;
+  padding-bottom: 15px;
+  letter-spacing: 0.05em;
+}
+
+.testimonial-card {
+  width: 70%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  background-color: #e3e3e3;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  p {
+    padding-left: 30px;
+  } 
+
+  h3 {
+    align-self: flex-end;
+    text-align: right;
+  }
+}
